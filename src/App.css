@@ -1,0 +1,31 @@
+.App {
+  margin: 0 10% 0 10%;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 740px) {
+  .App {
+    background-color: lightblue;
+    margin: 0 5% 0 5%;
+    margin-top: 20px;
+  }
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+  padding: 15px;
+}
+
+.task-item {
+  border-right: 1px solid #EDEDEF;
+  overflow-y: scroll;
+  height: 78vh;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}

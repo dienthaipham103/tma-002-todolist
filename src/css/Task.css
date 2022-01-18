@@ -1,0 +1,43 @@
+.task {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EAEDF0;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.task__content--done {
+    color: #D0D2D3;
+}
+
+.task__options {
+    display: none;
+    cursor: pointer;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.task:hover {
+    background-color: rgba(236, 241, 254, 0.5);
+}
+
+.task--active {
+    background-color: rgba(236, 241, 254, 1);
+}
+
+.task--active:hover {
+    background-color: rgba(236, 241, 254, 1);
+}
+
+.task:hover .task__options{
+    display: inline;
+}
